@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="graphic.MainPanel">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1465" height="657"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <splitpane id="3acb2">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <dividerLocation value="345"/>
+          <dividerSize value="2"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <splitpane id="35b41">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <dividerLocation value="400"/>
+              <dividerSize value="2"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="54f52" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <splitpane position="left"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="86a54" class="javax.swing.JButton" binding="paragraphAddBtn">
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <text value="+"/>
+                    </properties>
+                  </component>
+                  <scrollpane id="f459c" binding="paraScroll">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="2553e" binding="secondPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints/>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <grid id="89a27" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                            <margin top="0" left="0" bottom="0" right="0"/>
+                            <constraints border-constraint="North"/>
+                            <properties/>
+                            <border type="none"/>
+                            <children/>
+                          </grid>
+                        </children>
+                      </grid>
+                    </children>
+                  </scrollpane>
+                </children>
+              </grid>
+              <grid id="d1f12" layout-manager="BorderLayout" hgap="0" vgap="0">
+                <constraints>
+                  <splitpane position="right"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="53c32" class="javax.swing.JButton" binding="saveBtn">
+                    <constraints border-constraint="North"/>
+                    <properties>
+                      <text value="저장"/>
+                    </properties>
+                  </component>
+                  <grid id="e2d70" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints border-constraint="Center"/>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="b8e73" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="Center"/>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <component id="839ab" class="javax.swing.JButton" binding="sentenceAddBtn">
+                            <constraints border-constraint="North"/>
+                            <properties>
+                              <text value="+"/>
+                            </properties>
+                          </component>
+                          <scrollpane id="d13fe" binding="sentenceScroll">
+                            <constraints border-constraint="Center"/>
+                            <properties/>
+                            <border type="none"/>
+                            <children>
+                              <grid id="e8981" binding="thirdPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                                <constraints/>
+                                <properties/>
+                                <border type="none"/>
+                                <children/>
+                              </grid>
+                            </children>
+                          </scrollpane>
+                        </children>
+                      </grid>
+                      <grid id="a9d04" binding="twoPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                        <constraints border-constraint="North"/>
+                        <properties/>
+                        <border type="none"/>
+                        <children>
+                          <splitpane id="24fc5">
+                            <constraints border-constraint="Center"/>
+                            <properties>
+                              <dividerLocation value="430"/>
+                              <dividerSize value="1"/>
+                            </properties>
+                            <border type="none"/>
+                            <children>
+                              <scrollpane id="7e373" binding="textScroll">
+                                <constraints>
+                                  <splitpane position="left"/>
+                                </constraints>
+                                <properties/>
+                                <border type="none"/>
+                                <children>
+                                  <component id="26557" class="javax.swing.JTextArea" binding="paragraphText">
+                                    <constraints/>
+                                    <properties>
+                                      <lineWrap value="true"/>
+                                      <rows value="13"/>
+                                      <text value=""/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </scrollpane>
+                              <grid id="62641" binding="sentenceInputPanel" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                                <margin top="0" left="0" bottom="0" right="0"/>
+                                <constraints>
+                                  <splitpane position="right"/>
+                                </constraints>
+                                <properties/>
+                                <border type="none"/>
+                                <children>
+                                  <component id="87fe0" class="javax.swing.JTextField" binding="textField">
+                                    <constraints>
+                                      <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties/>
+                                  </component>
+                                  <component id="6e0a3" class="javax.swing.JTextField" binding="questField">
+                                    <constraints>
+                                      <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                                        <preferred-size width="150" height="-1"/>
+                                      </grid>
+                                    </constraints>
+                                    <properties/>
+                                  </component>
+                                  <vspacer id="c1bc6">
+                                    <constraints>
+                                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                  </vspacer>
+                                  <vspacer id="3915">
+                                    <constraints>
+                                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                  </vspacer>
+                                  <hspacer id="2eacf">
+                                    <constraints>
+                                      <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                  </hspacer>
+                                  <component id="b7ccb" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="예상 질문"/>
+                                    </properties>
+                                  </component>
+                                  <component id="dec56" class="javax.swing.JLabel">
+                                    <constraints>
+                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="자기소개서 문장"/>
+                                    </properties>
+                                  </component>
+                                  <component id="e3b44" class="javax.swing.JButton" binding="sentenceSaveBtn">
+                                    <constraints>
+                                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                                    </constraints>
+                                    <properties>
+                                      <text value="저장"/>
+                                    </properties>
+                                  </component>
+                                </children>
+                              </grid>
+                            </children>
+                          </splitpane>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </splitpane>
+          <grid id="f9e4b" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="1b129" class="javax.swing.JButton" binding="resumeAddBtn">
+                <constraints border-constraint="North"/>
+                <properties>
+                  <text value="+"/>
+                </properties>
+              </component>
+              <scrollpane id="41e4" binding="resumeScroll">
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="8a0a0" binding="firstPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints/>
+                    <properties/>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>

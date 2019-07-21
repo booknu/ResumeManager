@@ -1,0 +1,5 @@
+<root>
+    <item name='de.javasoft.synthetica.plain.SyntheticaPlainLookAndFeel'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

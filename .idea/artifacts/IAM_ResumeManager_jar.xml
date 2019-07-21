@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IAM_ResumeManager:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IAM_ResumeManager_jar</output-path>
+    <root id="archive" name="IAM_ResumeManager.jar">
+      <element id="module-output" name="IAM_ResumeManager" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/syntheticaDark.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/synthetica.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/syntheticaPlain.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

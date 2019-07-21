@@ -1,0 +1,14 @@
+[ 전역 ]
+Ctrl + Q : 자소서 추가
+Ctrl + W : 문단 추가
+Ctrl + E : 문장 추가
+
+Ctrl + Z :
+Ctrl + X :
+Ctrl + C :
+
+[ 문단 ]
+Ctrl + Enter : 저장
+
+[ 문장 ]
+Enter : 다음으로 넘어가기, 저장
