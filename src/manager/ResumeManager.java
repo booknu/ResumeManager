@@ -17,6 +17,7 @@ public class ResumeManager {
 	}
 	public synchronized void writeJson(File json) {
 		Gson gson = new GsonBuilder().create();
+		if(!json.getParentFile().exists() || !json.getParentFile().isDirectory()) json.getParentFile().mkdir();
 		try (Writer writer = new FileWriter(json)) {
 			gson.toJson(resumes, writer);
 		} catch (IOException e) {
